@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Ремонт стиральных машин</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+        }
+
+        header {
+            background: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #2c3e50;
+        }
+
+        .card {
+            background: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .price {
+            float: right;
+            font-weight: bold;
+        }
+
+        .btn {
+            display: block;
+            text-align: center;
+            background: #27ae60;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #ddd;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Ремонт стиральных машин</h1>
+    <p>Выезд мастера в день обращения</p>
+</header>
+
+<div class="container">
+
+    <h2>🔧 Услуги</h2>
+
+    <div class="card">
+        Диагностика <span class="price">Бесплатно*</span>
+    </div>
+
+    <div class="card">
+        Замена насоса <span class="price">от 500 грн</span>
+    </div>
+
+    <div class="card">
+        Замена подшипников <span class="price">от 1200 грн</span>
+    </div>
+
+    <div class="card">
+        Ремонт платы управления <span class="price">от 800 грн</span>
+    </div>
+
+    <div class="card">
+        Чистка и профилактика <span class="price">от 400 грн</span>
+    </div>
+
+    <h2>💰 Прайс</h2>
+
+    <div class="card">
+        Выезд мастера <span class="price">200 грн</span>
+    </div>
+
+    <div class="card">
+        Мелкий ремонт <span class="price">от 300 грн</span>
+    </div>
+
+    <div class="card">
+        Срочный ремонт (в день обращения) <span class="price">+200 грн</span>
+    </div>
+
+    <a href="tel:+380000000000" class="btn">📞 Позвонить мастеру</a>
+
+</div>
+
+<footer>
+    <p>Работаем ежедневно 08:00–20:00</p>
+    <p>Гарантия на ремонт до 6 месяцев</p>
+</footer>
+
+</body>
+</html>
